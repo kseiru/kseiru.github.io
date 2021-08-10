@@ -1,0 +1,47 @@
+.background {
+    background-color: black;
+}
+
+.dsavat {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vkleft {
+    height: 128px;
+    width: 128px;
+    text-align: left;
+}
+
+.dsright {
+    height: 128px;
+    width: 128px;
+    text-align: right;
+}
+
+.stleft {
+    height: 128px;
+    width: 128px;
+    text-align: left;
+}
+
+.ytright {
+    height: 128px;
+    width: 128px;
+    text-align: right;
+}
+
+.fig {
+    text-align: center; /* Выравнивание по центру */
+}
+
+
+.mydiscord {
+    color: #00a300;
+    font-size: 72px;
+    font-style: oblique;
+    font-weight: bolder;
+}

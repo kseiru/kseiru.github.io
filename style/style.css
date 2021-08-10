@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {background: black; }
+canvas {display:block;}
+
+.dsavat {
+    border-radius: 50%;
+    border: 5px #36393f;
+    height: 128px;
+    width: 128px;
+
+}
+
+.fig {
+    text-align: center; /* Выравнивание по центру */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mydiscord {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    font-size: 72px;
+    color: #00a300;
+}
+
+.aboutme {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 28px;
+    color: #00ea00;
+    text-align: right;
+    position: relative;
+    display: inline;
+    top: 20px;
+    margin-left: auto;
+    display: inline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+.vkleft {
+    height: 128px;
+    width: 128px;
+    text-align: left;
+}
+
+.dsright {
+    height: 128px;
+    width: 128px;
+    text-align: right;
+}
+
+.stleft {
+    height: 128px;
+    width: 128px;
+    text-align: left;
+}
+
+.ytright {
+    height: 128px;
+    width: 128px;
+    text-align: right;
+}
+
+#canvas-wrap {
+    position: relative;
+} /* Make this a positioned parent */
+#overlay {
+    position: absolute;
+    top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    height: 25% ;
+}
+#overlay2 {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 75%;
+    min-height: 780px;
+    margin-left: 40.5%;
+}
+#overlay1 {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 50%;
+    min-height: 780px;
+    margin-left: 40.5%;
+}
