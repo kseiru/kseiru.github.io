@@ -5,9 +5,7 @@
         <link rel="icon" href="files/icon.ico">
     </head>
     <style>
-        body {
-            background-color: black;
-        }
+        
 
         .scpnumber {
             font-size: 72px;
@@ -27,13 +25,13 @@
         }
     </style>
     <body>
-        <p class="scpnumber">
-            <?php
-            $scp001name = 'SCP-001 | ЗАСЕКРЕЧЕНО';
-            $scp001class = 'КЛАСС: ТАУМИЭЛЬ';
-            $scp001desc = 'ЗАСЕКРЕЧЕНАЯ ИНФОРМАЦИЯ';
-            echo($scp001name, <br> $scp001class, <br> $cp001desc);
-            ?>
-        </p>
+        <?php
+          
+          $scp001n = "SCP-001 | Засекречено";
+          $scp001c = "Класс: ТАУМИЭЛЬ";
+          $scp001d = "ЗАСЕКРЕЧЕННАЯ ИНФОРМАЦИЯ";
+          echo($scp001n, $scp001c, $scp001d);
+
+        ?>
     </body>
 </html>
